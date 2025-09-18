@@ -1,0 +1,34 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  /*Tambahkan Codingan baru */
+  background-color: rgb(164, 31, 31);
+  color: white;
+  padding: 18px;
+  gap: 8px;
+}
+
+a {
+  text-decoration-line: none;
+  font-size: 20px;
+  color: rgb(164, 31, 31);
+  border: 2px solid red;
+}
+
+a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(164, 31, 31);
+}
